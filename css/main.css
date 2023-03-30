@@ -36,7 +36,6 @@ a{
 /* theme CSS */
 main{
     position: relative;
-    height: 100vh;
 }
 nav{
     display: flex;
@@ -79,10 +78,10 @@ nav ul li:hover{
 }
 .image h2{
     color: #f0f0f0;     
-    margin: 0rem 71rem 0rem 15rem;     
+    margin: 0rem 76rem 0rem 10rem;     
     padding-top: 10rem;     
     padding-bottom: 5rem;     
-    font-size: 5rem;         
+    font-size: 3rem;         
     font-family: 'Montserrat', sans-serif;
 }
 .image a{
@@ -91,7 +90,7 @@ nav ul li:hover{
     color: #f0f0f0;
     border-radius: 2px;
     padding: 2rem 3rem 2rem 3rem;
-    margin : 16px 36px -3px 141px;
+    margin : 0rem 0rem 0rem 8rem;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -100,43 +99,56 @@ nav ul li:hover{
     position: fixed;
     bottom: .7rem;;
     right: .7rem;
-    padding:1rem;
+    padding: 1rem;
     border:#d5473b;
     border-radius: 5rem;
 }
 label{
     font: 1.6rem 'Raleway', sans-serif;
     color: #000;
-    font-size: 1.6rem;
-    text-align: center;
-    
-  
-}
-form{
-
-font: 1.6rem 'Raleway', sans-serif;
-text-align: center;
-padding: 2rem;
-margin: 2rem;
-color: #000;
-line-height: 3rem;
-
-}
-form a{
-    background-color: #d5473b;
-    line-height: 5rem;
-    color: #f0f0f0;
-    border-radius: 2px;
-    padding: 1rem 2rem 1rem 2rem;
-    margin : -12px 1px -3px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-li{
     line-height: 4rem;
 }
+
+section div{
+    max-width: 40rem;
+    margin: auto;
+    text-align: center;
+}
+fieldset{
+    max-width: 90rem;
+    border:.2rem solid #000;
+    margin: 0rem 0rem 0rem 18rem;
+}
+form{
+    font: 1.6rem 'Raleway', sans-serif;
+    padding: 2rem;
+    margin: 2rem;
+    color: #000;
+    line-height: 3rem;
+}
+form .button{
+    background-color: #0071f0;
+    margin-top: 3rem;
+
+}
 input{
-    line-height: 2rem;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    line-height: 3.5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    padding: .5rem;
+}
+footer p{
+    bottom: 0;
+    text-align: center;
+}
+.button2{
+    position: fixed;
+    bottom: 3%;
+    right: 3rem;
+    max-width: 7rem;
+    background-color: #d5473b;
+    padding: 1.2rem 1.5rem;
+    border-radius: 2.5rem;
+    
 }
