@@ -115,20 +115,24 @@ section div{
     text-align: center;
 }
 fieldset{
-    max-width: 90rem;
-    border:.2rem solid #000;
-    margin: 0rem 0rem 0rem 18rem;
+    max-width: 80rem;
+    border:.2rem solid #808080 ;
+    margin: 0 auto ;
+    border-radius: 1rem;
 }
 form{
     font: 1.6rem 'Raleway', sans-serif;
     padding: 2rem;
-    margin: 2rem;
+    margin: -2rem -1rem -2rem -1rem;
     color: #000;
     line-height: 3rem;
 }
 form .button{
+    max-width: 30rem;
     background-color: #0071f0;
-    margin-top: 3rem;
+    border: none;
+    margin-left: 25rem;
+
 
 }
 input{
