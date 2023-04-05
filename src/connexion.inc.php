@@ -1,6 +1,6 @@
 <?php
 
-// connectioon bdd
+// connexion bdd
 
 try{
     $_bdd=new PDO('mysql:host=localhost;dbname=gmail;charset=utf8', 'root', '');

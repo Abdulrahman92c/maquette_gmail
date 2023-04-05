@@ -1,118 +1,151 @@
 /*reset*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap') ;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
 html {
     font-size: 62.5%;
-    scroll-behavior : smooth;
-display : inline;
+    scroll-behavior: smooth;
+    display: inline;
 }
+
 body {
-font : 1.6rem 'Montserrat', sans-serif;
-margin : 0;
-line-height : 1.5;
-background-color : #ffffff;
-display : inline;
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #ffffff;
+    display: inline;
 }
+
 * {
-box-sizing : border-box;
+    box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6, p, figure, ul, ol {
-margin : 0;
-padding : 0;
-list-style-type : none;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
-h1, h2, h3, h4, h5, h6 {
-font-weight : 200;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 200;
 }
+
 img {
-display : inline-block;
-width : 100%;
-height : 100%;
-vertical-align : middle;
-object-fit : cover;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
 }
+
 a {
-text-decoration : none;
-color : rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
+
 :root {
---primary-color-theme : #bd6868;
---secondary-color-theme : #0a0a0ace;
---last-color-theme: #000000;
---warning-theme: #ffffff;
+    --primary-color-theme: #bd6868;
+    --secondary-color-theme: #0a0a0ace;
+    --last-color-theme: #000000;
+    --warning-theme: #ffffff;
 
 }
-#orange{
-   background-color: #d5473b;
-   padding-top: .5rem;
-   padding-bottom: .5rem;
+
+#orange {
+    background-color: #d5473b;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
-nav{
+
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    top:0;
+    top: 0;
     line-height: 5rem;
-    
+
 }
 
-nav h1{
+nav h1 {
     margin: 0.5rem;
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
 }
-nav h1 img{
+
+nav h1 img {
     width: 3rem;
     border-radius: 1rem;
 }
-nav ul{
+
+nav ul {
     display: flex;
     margin: 0;
     padding: 0;
 }
-nav ul li{
-    padding:0 2rem;
+
+nav ul li {
+    padding: 0 2rem;
     cursor: pointer;
     transition: .5s;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    
-}
-nav ul li a{
-    color: #000000;
-}
-nav ul li:hover{
-   background-color: #d5473b;   
-   transition: .5s;
-   
-}
-header h1 {
-text-align : center;
-color: var(--last-color-theme);
 
 }
+
+nav ul li a {
+    color: #000000;
+}
+
+nav ul li:hover {
+    background-color: #d5473b;
+    transition: .5s;
+
+}
+
+header h1 {
+    text-align: center;
+    color: var(--last-color-theme);
+
+}
+
 header p {
     font-size: small;
     text-align: center;
 }
+
 fieldset {
-max-width : 80rem;
-padding : 2rem;
-margin : 5rem auto 2rem;
-border: solid .1rem var(--secondary-color-theme);
-border-radius: .4rem;
+    max-width: 80rem;
+    padding: 2rem;
+    margin: 5rem auto 2rem;
+    border: solid .1rem var(--secondary-color-theme);
+    border-radius: .4rem;
 
 }
 
-fieldset legend{
+fieldset legend {
     font-weight: bolder;
     padding: .5rem;
     text-transform: uppercase;
 }
+
 fieldset form * {
-display : block;
-width : 100%;
-line-height : 5rem;
-font-size: inherit;
+    display: block;
+    width: 100%;
+    line-height: 5rem;
+    font-size: inherit;
 }
 
 
@@ -122,32 +155,30 @@ font-size: inherit;
 
 fieldset form input[type="text"],
 fieldset form input[type="date"],
-fieldset form input[type="tel"]{
+fieldset form input[type="tel"] {
     border: solid .1rem #000;
     transition-duration: 0.6s;
     padding: 0 .4rem;
     width: 35%;
 }
 
-fieldset form input[type="text"]:focus
-fieldset form input[type="date"]:focus
-fieldset form input[type="tel"]:focus{
+fieldset form input[type="text"]:focus fieldset form input[type="date"]:focus fieldset form input[type="tel"]:focus {
     outline: none;
     box-shadow: 0 0 2rem var(--warning-theme);
     width: 35%;
 }
 
-fieldset form [placeholder]{
+fieldset form [placeholder] {
     font-style: italic;
     background-color: rgba(217, 213, 213, 0.866);
 }
 
 
-fieldset form input[type="submit"]{
+fieldset form input[type="submit"] {
     border: solid .1rem transparent;
     border-radius: .4rem;
     color: #fff;
-    background:#d5473b;
+    background: #d5473b;
     cursor: pointer;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -159,12 +190,13 @@ section button img {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    background-color:#dd5347;
+    background-color: #dd5347;
     color: #fff;
     padding: 1rem;
- 
-    
-    }
+
+
+}
+
 footer p {
-text-align : center;
+    text-align: center;
 }
