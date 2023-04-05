@@ -79,9 +79,13 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #d5473b;
-    transition: .5s;
+    background-color: #C25132;
+    transition: .5s all ease;
     line-height: 6rem;
+    color: #fff;
+}
+nav ul li a{
+    color: inherit;
 }
 
 .image {
@@ -102,27 +106,19 @@ nav ul li:hover {
 }
 
 .image a {
-    background-color: #d5473b;
+    background-color: #C25132;
     line-height: 5rem;
-    color: #f0f0f0;
+    color: #fff;
     border-radius: 2px;
     padding: 2rem 3rem 2rem 3rem;
     margin: 0rem 0rem 0rem 11rem;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
-
-.image button {
-    background-color: #d5473b;
-    position: fixed;
-    bottom: .7rem;
-    ;
-    right: .7rem;
-    padding: 1rem;
-    border: #d5473b;
-    border-radius: 5rem;
+i{
+    filter: invert(1);
 }
-
 label {
     font: 1.6rem 'Raleway', sans-serif;
     color: #000;
@@ -161,7 +157,7 @@ form .button {
 
 }
 
-.ok{
+.ok {
     background: rgba(6, 207, 6, 0.584);
     color: #000;
     max-width: 25%;
@@ -173,18 +169,8 @@ form .button {
 
 }
 
-.notok{
-    background: rgba(255, 80, 31, 0.674);
-    color: #fff;
-    max-width: 25%;
-    margin: auto;
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: .5rem;
-    text-align: center;
-}
-.warning p{
-    background: rgba(255, 80, 31, 0.674);
+.notok {
+    background: #C25132;
     color: #fff;
     max-width: 25%;
     margin: auto;
@@ -213,8 +199,11 @@ footer p {
     bottom: 3%;
     right: 3rem;
     max-width: 7rem;
-    background-color: #d5473b;
+    background-color: #d5483bbb;
     padding: 1.2rem 1.5rem;
     border-radius: 2.5rem;
+}
 
+img .button2 {
+    filter: invert(1);
 }
